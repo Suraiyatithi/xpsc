@@ -1,0 +1,1 @@
+{"name":"Local: indian","url":"d:\\xpsc\\week-1\\day-2\\indian.cpp","tests":[{"id":1730123084968,"input":"5\nbirch yellow\nmaple red\nbirch yellow\nmaple yellow\nmaple green","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\xpsc\\week-1\\day-2\\indian.cpp","group":"local","local":true}
