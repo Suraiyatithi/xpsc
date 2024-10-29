@@ -15,7 +15,7 @@ int main() {
         string start = p[i].first;
         string end = p[i].second;
         
-        // Extend `end` to the longest possible match
+       
         bool extended = true;
         while (extended) {
             extended = false;
@@ -27,7 +27,7 @@ int main() {
             }
         }
 
-        // Insert only the longest chain found for `start`
+      
         s.insert({start, end});
     }
 

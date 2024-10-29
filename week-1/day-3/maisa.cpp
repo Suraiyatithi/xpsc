@@ -39,7 +39,7 @@ int main() {
         string start = p[i].first;
         string end = p[i].second;
 
-        // Look for chains that extend `end`
+        
         bool found = false;
         for (int j = i + 1; j < n; j++) {
             if (end == p[j].first) {
