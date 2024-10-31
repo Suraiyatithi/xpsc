@@ -1,0 +1,1 @@
+{"name":"Local: registration","url":"d:\\xpsc\\week-1\\day-4\\registration.cpp","tests":[{"id":1730346481758,"input":"4\nabc\naca\nabc\nacbd","output":"ok\nok\nabc1\nok"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\xpsc\\week-1\\day-4\\registration.cpp","group":"local","local":true}
