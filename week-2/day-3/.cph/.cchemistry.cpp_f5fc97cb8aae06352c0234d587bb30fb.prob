@@ -1,0 +1,1 @@
+{"name":"Local: cchemistry","url":"d:\\xpsc\\week-2\\day-3\\cchemistry.cpp","tests":[{"id":1730866926971,"input":"4\n1 0\na\n6 2\nbacacd\n7 2\ntaagaak\n5 3\ndebca","output":"YES\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\xpsc\\week-2\\day-3\\cchemistry.cpp","group":"local","local":true}
