@@ -1,0 +1,1 @@
+{"name":"Local: threefox","url":"d:\\xpsc\\week-2\\day-5\\threefox.cpp","tests":[{"id":1731146280198,"input":"2\n57 13 60\n103 17 110","output":"32/1\n1176/23\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\xpsc\\week-2\\day-5\\threefox.cpp","group":"local","local":true}
