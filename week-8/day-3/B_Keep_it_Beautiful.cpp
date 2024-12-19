@@ -23,7 +23,7 @@ while(t--){
             val=a[i];
         }
       
-      else if(a[i-1]>a[i] &&j==0){
+      else if(a[0]>=a[i] &&j==0){
        v[i]=1;
         val=a[i];
         j=1;
@@ -39,3 +39,47 @@ v[i]=0;
 }
     return 0;
 }
+// #include <bits/stdc++.h>
+// using namespace std;
+
+// int main() {
+//     int t;
+//     cin >> t;
+//     while (t--) {
+//         int q;
+//         cin >> q;
+//         vector<int> a;
+//         string result = "";
+
+//         bool wrap_around = false;
+//         for (int i = 0; i < q; i++) {
+//             int x;
+//             cin >> x;
+
+//             if (a.empty()) {
+              
+//                 a.push_back(x);
+//                 result += "1";
+//             } else if (!wrap_around && x >= a.back()) {
+              
+//                 a.push_back(x);
+//                 result += "1";
+//             } else if (!wrap_around && x <= a.front()) {
+              
+//                 a.push_back(x);
+//                 result += "1";
+//                 wrap_around = true;
+//             } else if (wrap_around && x >= a.back() && x <= a.front()) {
+             
+//                 a.push_back(x);
+//                 result += "1";
+//             } else {
+              
+//                 result += "0";
+//             }
+//         }
+
+//         cout << result << '\n';
+//     }
+//     return 0;
+// }
